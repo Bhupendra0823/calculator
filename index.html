@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+    </head>
+    <meta name="viewport" content=" height=device-height, width=device-width, initial-scale=1.0">    <link rel="stylesheet" href="project.css" type="text/css">
+    <script type="text/javascript" src="project.js" ></script>    
+    <body>
+        <h1 style="font-size: 3rem;text-align: center;">Calculator</h1>
+        <h3>Visitor counter :</h3>
+          <!-- Start of WebFreeCounter Code -->
+<a href="https://www.webfreecounter.com/" target="_blank"><img src="https://www.webfreecounter.com/hit.php?id=grufxdxf&nd=6&style=1" border="0" alt="web counter"></a>
+<!-- End of WebFreeCounter Code -->
+        <div id="tab" >
+        <table style="opacity: 60%;border: 10px solid red; padding: 2%;border-radius: 5%;text-align: center;margin: auto;">
+            <tr>
+                <td colspan="3"><input type="text" id="calculation" style="padding: 10px;"></td>
+                
+                <td><input id="cancel" type="button" onclick="clr()" value="c" ></td>
+            </tr>
+            <tr>
+                <td><input id="d" type="button" onclick="back()" value="del" style="font-size: 1 rem;" ></td>
+                <td><input id="arj" type="button" onclick="scr('**')" value="^" ></td>
+                <td><input id="arj" type="button" onclick="scr('E')" value="E" ></td>
+                <td><input id="arj" type="button" onclick="scr('1/')" value="Inverse" ></td>
+            </tr>
+            <tr>
+                <td><input id="dig" type="button" onclick="scr('7')" value="7" ></td>&nbsp
+                <td><input id="dig" type="button" onclick="scr('8')" value="8" ></td>
+                <td><input id="dig" type="button" onclick="scr('9')" value="9" ></td>
+                <td><input id="arj" type="button" onclick="scr('+')" value="+" ></td>
+                
+            </tr>
+            <tr>
+                <td><input id="dig" type="button" onclick="scr('4')" value="4" ></td>
+                <td><input id="dig" type="button" onclick="scr('5')" value="5" ></td>
+                <td><input id="dig" type="button" onclick="scr('6')" value="6" ></td>
+                <td><input id="arj" type="button" onclick="scr('-')" value="-" ></td>
+                
+            </tr>
+            <tr>
+                <td><input id="dig" type="button" onclick="scr('1')" value="1" ></td>
+                <td><input id="dig" type="button" onclick="scr('2')" value="2" ></td>
+                <td><input id="dig" type="button" onclick="scr('3')" value="3" ></td>
+                <td><input id="arj" type="button" onclick="scr('*')" value="*" ></td>
+                
+                
+            </tr>
+            <tr>
+                <td><input id="deci" type="button" onclick="scr('.')" value="." ></td>
+                <td><input id="dig" type="button" onclick="scr('0')" value="0" ></td>
+                <td><input id="equal" type="button" onclick="solve()" value="=" ></td>
+                <td><input id="arj" type="button" onclick="scr('/')" value="/" ></td>
+                
+            </tr>   
+       </table>
+        </div>
+    </body>
+</html>
