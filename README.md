@@ -1,4 +1,4 @@
-## calculator Web App
+## Basic calculator Web App
 * HTML
 * CSS
 * Javascript
